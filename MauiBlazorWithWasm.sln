@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorClassLibrary", "RazorC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wasm", "Wasm", "{098C9213-926B-460C-9FFC-B7FBC8853A24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppBlazor", "MauiAppBlazor\MauiAppBlazor.csproj", "{F44AE350-66E4-4B25-8CC6-47255001DE7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,12 @@ Global
 		{03722054-3DEF-4C49-A12E-6F88209A0987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03722054-3DEF-4C49-A12E-6F88209A0987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03722054-3DEF-4C49-A12E-6F88209A0987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44AE350-66E4-4B25-8CC6-47255001DE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44AE350-66E4-4B25-8CC6-47255001DE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44AE350-66E4-4B25-8CC6-47255001DE7C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F44AE350-66E4-4B25-8CC6-47255001DE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44AE350-66E4-4B25-8CC6-47255001DE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44AE350-66E4-4B25-8CC6-47255001DE7C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
