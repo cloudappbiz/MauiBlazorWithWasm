@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm.Server", "BlazorWasm\Server\BlazorWasm.Server.csproj", "{EFD1E73C-47D4-41B6-A631-5E5291BB7835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm.Server", "BlazorWasm\Server\BlazorWasm.Server.csproj", "{EFD1E73C-47D4-41B6-A631-5E5291BB7835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm.Client", "BlazorWasm\Client\BlazorWasm.Client.csproj", "{6C54FECD-725F-455D-8E94-86BE454F8057}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm.Client", "BlazorWasm\Client\BlazorWasm.Client.csproj", "{6C54FECD-725F-455D-8E94-86BE454F8057}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm.Shared", "BlazorWasm\Shared\BlazorWasm.Shared.csproj", "{5DC690B4-8BAB-4DF2-A47C-95026403FA3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm.Shared", "BlazorWasm\Shared\BlazorWasm.Shared.csproj", "{5DC690B4-8BAB-4DF2-A47C-95026403FA3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibrary", "RazorClassLibrary\RazorClassLibrary.csproj", "{03722054-3DEF-4C49-A12E-6F88209A0987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorClassLibrary", "RazorClassLibrary\RazorClassLibrary.csproj", "{03722054-3DEF-4C49-A12E-6F88209A0987}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wasm", "Wasm", "{098C9213-926B-460C-9FFC-B7FBC8853A24}"
 EndProject
