@@ -1,6 +1,8 @@
 ﻿@page "/fetchdata"
 
-@inject HttpClient Http
+@inject WeatherForecastService WeatherForecast
+
+@using RazorClassLibrary.Services
 
 <PageTitle>Weather forecast</PageTitle>
 
@@ -42,6 +44,6 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+		forecasts = await WeatherForecast.GetForecastAsync(DateTime.Now);
     }
 }

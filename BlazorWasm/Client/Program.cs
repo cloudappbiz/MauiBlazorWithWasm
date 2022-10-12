@@ -3,6 +3,8 @@ using BlazorWasm.Client;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
+using RazorClassLibrary.Services;
+
 namespace BlazorWasm.Client
 {
     public class Program
@@ -14,6 +16,8 @@ namespace BlazorWasm.Client
             builder.RootComponents.Add<HeadOutlet>("head::after");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+
+            builder.Services.AddSingleton<WeatherForecastService>();
 
             await builder.Build().RunAsync();
         }
